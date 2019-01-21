@@ -405,7 +405,7 @@ body {
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
   .swiper-container .swiper-slide:nth-child(1) {
-    background-image: url("../img/Buildings/Building (1).jpg"); }
+    background-image: url("../img/Buildings/Building (1).jpf"); }
   .swiper-container .swiper-slide:nth-child(2) {
     background-image: url("../img/Buildings/Building (2).jpg"); }
   .swiper-container .swiper-slide:nth-child(3) {
