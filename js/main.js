@@ -33,19 +33,19 @@ $(document).ready(function($) {
   });
 
   if($('.mobile_nav').hasClass('mobile_nav_active')){
-	  $('.page_wrapper').on('click' ,function(){
+	  $('.page_wrapper').on('click', function(){
 	  	$('.menu_trigger').toggleClass('menu_trigger_active');
 	    $('.mobile_nav').toggleClass('mobile_nav_active');
 	    $('.page_wrapper').toggleClass('page_slide');
 	  });
-  }
+  };
 
   ////////// Optimization For Mobile////////////
   $(window).resize(function(event) {
     if( $(window).width() > 992 ){
       $('.menu_trigger').removeClass('menu_trigger_active');
       $('.mobile_nav').removeClass('mobile_nav_active');
-      $('.page_wrapper').removeClass('page_slide'); 
+      $('.page_wrapper').removeClass('page_slide');
     };
   });
   
