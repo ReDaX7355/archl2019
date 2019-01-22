@@ -1,21 +1,26 @@
 @font-face {
   font-family: "fontawesome";
+  font-display: auto;
   src: url("../fonts/Font Awesome/fa-brands-400.eot") format("eot"), url("../fonts/Font Awesome/fa-brands-400.woff") format("woff"), url("../fonts/Font Awesome/fa-regular-400.eot") format("eot"), url("../fonts/Font Awesome/fa-regular-400.woff") format("woff"), url("../fonts/Font Awesome/fa-solid-900.eot") format("eot"), url("../fonts/Font Awesome/fa-solid-900.woff") format("woff"); }
 
 @font-face {
   font-family: "Raleway";
+  font-display: auto;
   src: url("../fonts/ralewayregular.ttf") format("ttf"), url("../fonts/ralewayregular.woff") format("woff"), url("../fonts/ralewayregular.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Raleway Bold";
+  font-display: auto;
   src: url("../fonts/ralewaybold.ttf") format("ttf"), url("../fonts/ralewaybold.woff") format("woff"), url("../fonts/ralewaybold.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Raleway ExtraBold";
+  font-display: auto;
   src: url("../fonts/ralewayextrabold.ttf") format("ttf"), url("../fonts/ralewayextrabold.woff") format("woff"), url("../fonts/ralewayextrabold.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Raleway Light";
+  font-display: auto;
   src: url("../fonts/ralewaylight.ttf") format("ttf"), url("../fonts/ralewaylight.woff") format("woff"), url("../fonts/ralewaylight.woff2") format("woff2"); }
 
 * {
