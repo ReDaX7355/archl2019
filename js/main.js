@@ -25,12 +25,20 @@ $(document).ready(function($) {
     $('.page_wrapper').toggleClass('page_slide');
   });
 
-  //////////Menu///////////
+  //////////Mobile Menu///////////
   $('.mobile_nav li a').on('click', function(){
     $('.menu_trigger').toggleClass('menu_trigger_active');
     $('.mobile_nav').toggleClass('mobile_nav_active');
     $('.page_wrapper').toggleClass('page_slide');
   });
+
+  if('.mobile_nav').hasClass('mobile_nav_active'){
+	  $('.page_wrapper').on('click' ,function(){
+	  	$('.menu_trigger').toggleClass('menu_trigger_active');
+	    $('.mobile_nav').toggleClass('mobile_nav_active');
+	    $('.page_wrapper').toggleClass('page_slide');
+	  });
+  }
 
   ////////// Optimization For Mobile////////////
   $(window).resize(function(event) {
