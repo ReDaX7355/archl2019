@@ -159,6 +159,7 @@ body {
   top: 0;
   color: #fff;
   padding: 10px;
+  overflow-y: auto;
   -webkit-transform: translate(101%);
       -ms-transform: translate(101%);
           transform: translate(101%); }
