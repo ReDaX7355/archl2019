@@ -188,12 +188,12 @@ $(document).ready(function($) {
 let links = {'#home': '#1, #6', '#projects': '#2, #7', '#solutions': '#3, #8', '#contact': '#5, #10', '#about': '#11, #14', '#comments': '#12, #15', '#news': '#13, #16'};
 
 function linksScroll(ids, target){
-	$(`${ids}`).click(function(){
+	$(ids).click(function(){
 	    // скорость скролла
 	    var speed = 1000;
 	    
 	    // место скролла
-	    var top = $(`${target}`).offset().top;
+	    var top = $(target).offset().top;
 	    $('.menu-tr').toggleClass('rotate');
 	    if($(window).width() < 890){
 	      $('nav ul').slideToggle(300);
@@ -207,7 +207,7 @@ function linksScroll(ids, target){
 }
 
 for (let [key, value] of Object.entries(links)) {
-    linksScroll(key, value)
+    linksScroll(value, key)
 }
 
 });
