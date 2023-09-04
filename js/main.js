@@ -65,125 +65,150 @@ $(document).ready(function($) {
 
 
 
-////////// Links Navigation//////////
-  $('#1, #6').click(function(){
-    // скорость скролла
-    var speed = 1000;
+// ////////// Links Navigation//////////
+//   $('#1, #6').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#home').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#home').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#2, #7').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#2, #7').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#projects').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#projects').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#3, #8').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#3, #8').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#solutions').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#solutions').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#5, #10').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#5, #10').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#contact').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#contact').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#11, #14').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#11, #14').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#about').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#about').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#12, #15').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#12, #15').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#comments').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#comments').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
 
-  $('#13, #16').click(function(){
-    // скорость скролла
-    var speed = 1000;
+//   $('#13, #16').click(function(){
+//     // скорость скролла
+//     var speed = 1000;
     
-    // место скролла
-    var top = $('#news').offset().top;
-    $('.menu-tr').toggleClass('rotate');
-    if($(window).width() < 890){
-      $('nav ul').slideToggle(300);
-      $('html, body').animate({scrollTop: top}, speed);
-    } else{
-      $('html, body').animate({scrollTop: top}, speed);
-    }   
+//     // место скролла
+//     var top = $('#news').offset().top;
+//     $('.menu-tr').toggleClass('rotate');
+//     if($(window).width() < 890){
+//       $('nav ul').slideToggle(300);
+//       $('html, body').animate({scrollTop: top}, speed);
+//     } else{
+//       $('html, body').animate({scrollTop: top}, speed);
+//     }   
     
-    return false;
-  });
+//     return false;
+//   });
+
+let links = {'#home': '#1, #6', '#projects': '#2, #7', '#solutions': '#3, #8', '#contact': '#5, #10', '#about': '#11, #14', '#comments': '#12, #15', '#news': '#13, #16'};
+
+function linksScroll(ids, target){
+	$(`${ids}`).click(function(){
+	    // скорость скролла
+	    var speed = 1000;
+	    
+	    // место скролла
+	    var top = $(`${target}`).offset().top;
+	    $('.menu-tr').toggleClass('rotate');
+	    if($(window).width() < 890){
+	      $('nav ul').slideToggle(300);
+	      $('html, body').animate({scrollTop: top}, speed);
+	    } else{
+	      $('html, body').animate({scrollTop: top}, speed);
+	    }   
+	    
+	    return false;
+	});
+}
+
+for (let [key, value] of Object.entries(links)) {
+    linksScroll(key, value)
+}
 
 });
 
